@@ -1,0 +1,38 @@
+<div class="p-8">
+    <header class="mb-8">
+        <h2 class="text-3xl font-bold text-gray-800">🗑️ Detailed Smart Bin Inventory</h2>
+        <p class="text-gray-500">Real-time status and historical data for every registered Bingo Waste asset.</p>
+    </header>
+
+    <div class="bg-white p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Current Bin Status Summary</h3>
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Bin ID</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Location</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Fill Level</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Last PING</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200">
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Y-OT1</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-yellow-600 font-semibold">Yellow (Infectious)</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Operation Theatre 1</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-red-600 font-semibold">90% (URGENT)</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10:45 PM</td>
+                </tr>
+                <tr>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">W-MPR</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-800 font-semibold">White (Sharps)</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Minor Procedure Room</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-yellow-600 font-semibold">85% (Near Full)</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10:40 PM</td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="mt-6 py-2 px-4 bingo-green text-white font-semibold rounded-lg shadow-md hover:opacity-90">Register New Bin</button>
+    </div>
+</div>
